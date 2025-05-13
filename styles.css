@@ -1,0 +1,97 @@
+body {
+  background-color: #001f4d;
+  color: white;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('banner.jpg') center center/cover no-repeat;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #00aaff;
+}
+
+.section-title {
+  color: #00aaff;
+  margin-top: 2rem;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00aaff;
+}
+
+.tool-list li {
+  margin: 0.3rem 0;
+}
+
+.footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: #000d33;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+  color: #001f4d; /* Set text color for modal content */
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#modal-body {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+#modal-body h2 {
+  color: #001f4d; /* Ensure headings in the modal also have the correct color */
+}
+
+#modal-body p {
+  color: #001f4d; /* Ensure paragraphs in the modal also have the correct color */
+}
+
+/* Style for links inside the modal */
+#modal-body a {
+  color: #3fb6e6; /* Default link color */
+  text-decoration: none; /* Remove underline */
+}
+
+#modal-body a:hover {
+  color: black; /* Change color to black on hover */
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
