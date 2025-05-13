@@ -4,15 +4,30 @@ body {
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('banner.jpg') center center/cover no-repeat;
+  background: url('bg.png') center center/cover no-repeat;
   padding: 100px 0;
   text-align: center;
+  color: white; /* Ensure text is readable on the background */
 }
 
 .hero h1 {
   font-size: 4rem;
   font-weight: bold;
   color: #00aaff;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% transparency */
+  display: block; /* Ensures the title stays on its own line */
+  padding: 10px 20px; /* Adds padding around the text */
+  border-radius: 8px; /* Optional: Adds rounded corners */
+  margin-bottom: 10px; /* Adds spacing between the title and subtitle */
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% transparency */
+  display: block; /* Ensures the subtitle stays on its own line */
+  padding: 5px 15px; /* Adds padding around the text */
+  border-radius: 8px; /* Optional: Adds rounded corners */
 }
 
 .section-title {
@@ -29,7 +44,7 @@ a:hover {
   color: #00aaff;
 }
 
-.tool-list li {
+tool-list li {
   margin: 0.3rem 0;
 }
 
